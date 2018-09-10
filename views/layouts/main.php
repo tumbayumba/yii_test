@@ -63,6 +63,13 @@ AppAsset::register($this);
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
         <?= Alert::widget() ?>
+        
+        <?php if (isset($this->blocks['block1'])): ?>
+            <?= $this->blocks['block1'] ?>
+        <?php else: ?>
+            ... контент по умолчанию для блока 1 ...
+        <?php endif; ?>
+        
         <?= $content ?>
     </div>
 </div>

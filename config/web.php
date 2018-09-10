@@ -4,7 +4,8 @@ $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
 $config = [
-    'id' => 'basic',
+    'id' => 'yiitest88',
+    'name' => 'YII2',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'aliases' => [
@@ -55,6 +56,12 @@ $config = [
         
     ],
     'params' => $params,
+    'modules' => [
+        'forum' => [
+            'class' => 'app\modules\forum\Module',
+            // ... другие настройки модуля ...
+        ],
+    ],
 ];
 
 if (YII_ENV_DEV) {

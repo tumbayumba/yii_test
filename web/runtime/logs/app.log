@@ -1,0 +1,506 @@
+2018-09-10 13:55:13 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "country".' in C:\home\yii_test\www\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\home\yii_test\www\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('country', Array)
+#1 C:\home\yii_test\www\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\home\yii_test\www\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\home\yii_test\www\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\home\yii_test\www\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\home\yii_test\www\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-09-10 13:55:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'CountrySearch' => [
+        'code' => 'c'
+        'name' => ''
+        'population' => ''
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2b2iithprsvle2fmenb40abnv5'
+    '_csrf' => '70c3e71afe1647362d6f6732652e61d68818cf1a96fc841c0a7e1365819cfd71a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HhATzWWXHPp3hAwenAO24rcGnnbHeOmx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'cinuro'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii_test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii_test/web/country'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=2b2iithprsvle2fmenb40abnv5; _csrf=70c3e71afe1647362d6f6732652e61d68818cf1a96fc841c0a7e1365819cfd71a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HhATzWWXHPp3hAwenAO24rcGnnbHeOmx%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 77565: before request, vpn is not allowed, send headers'
+    'HTTP_X_HOLA_REQUEST_ID' => '77565'
+    'PATH' => '\\usr\\local\\ImageMagick;\\usr\\local\\php5;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\OpenVPN\\bin;C:\\Program Files (x86)\\Common Files\\Tom Sawyer Software\\8.0.0;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\programms\\php-5.5.9-Win32-VC11-x86;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\rospopovs\\AppData\\Roaming\\npm;C:\\Users\\rospopovs\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9 Server at yii_test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9'
+    'SERVER_NAME' => 'yii_test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/home/yii_test/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/home/yii_test/www/web/index.php'
+    'REMOTE_PORT' => '61230'
+    'REDIRECT_QUERY_STRING' => 'CountrySearch%5Bcode%5D=c&CountrySearch%5Bname%5D=&CountrySearch%5Bpopulation%5D='
+    'REDIRECT_URL' => '/web/country'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'CountrySearch%5Bcode%5D=c&CountrySearch%5Bname%5D=&CountrySearch%5Bpopulation%5D='
+    'REQUEST_URI' => '/web/country?CountrySearch%5Bcode%5D=c&CountrySearch%5Bname%5D=&CountrySearch%5Bpopulation%5D='
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1536576913.806
+    'REQUEST_TIME' => 1536576913
+    'argv' => [
+        0 => 'CountrySearch%5Bcode%5D=c&CountrySearch%5Bname%5D=&CountrySearch%5Bpopulation%5D='
+    ]
+    'argc' => 1
+]
+2018-09-10 13:55:14 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\home\yii_test\www\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\home\yii_test\www\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 C:\home\yii_test\www\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\home\yii_test\www\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\home\yii_test\www\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\home\yii_test\www\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\home\yii_test\www\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-09-10 13:55:14 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2b2iithprsvle2fmenb40abnv5'
+    '_csrf' => '70c3e71afe1647362d6f6732652e61d68818cf1a96fc841c0a7e1365819cfd71a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HhATzWWXHPp3hAwenAO24rcGnnbHeOmx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'cinuro'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii_test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii_test/web/country?CountrySearch%5Bcode%5D=c&CountrySearch%5Bname%5D=&CountrySearch%5Bpopulation%5D='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=2b2iithprsvle2fmenb40abnv5; _csrf=70c3e71afe1647362d6f6732652e61d68818cf1a96fc841c0a7e1365819cfd71a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HhATzWWXHPp3hAwenAO24rcGnnbHeOmx%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 77578: before request, vpn is not allowed, send headers'
+    'HTTP_X_HOLA_REQUEST_ID' => '77578'
+    'PATH' => '\\usr\\local\\ImageMagick;\\usr\\local\\php5;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\OpenVPN\\bin;C:\\Program Files (x86)\\Common Files\\Tom Sawyer Software\\8.0.0;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\programms\\php-5.5.9-Win32-VC11-x86;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\rospopovs\\AppData\\Roaming\\npm;C:\\Users\\rospopovs\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9 Server at yii_test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9'
+    'SERVER_NAME' => 'yii_test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/home/yii_test/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/home/yii_test/www/web/index.php'
+    'REMOTE_PORT' => '61231'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1536576914.097
+    'REQUEST_TIME' => 1536576914
+    'argv' => []
+    'argc' => 0
+]
+2018-09-10 13:55:25 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\home\yii_test\www\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\home\yii_test\www\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 C:\home\yii_test\www\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\home\yii_test\www\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\home\yii_test\www\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\home\yii_test\www\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\home\yii_test\www\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-09-10 13:55:25 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2b2iithprsvle2fmenb40abnv5'
+    '_csrf' => '70c3e71afe1647362d6f6732652e61d68818cf1a96fc841c0a7e1365819cfd71a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HhATzWWXHPp3hAwenAO24rcGnnbHeOmx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'cinuro'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii_test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=2b2iithprsvle2fmenb40abnv5; _csrf=70c3e71afe1647362d6f6732652e61d68818cf1a96fc841c0a7e1365819cfd71a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HhATzWWXHPp3hAwenAO24rcGnnbHeOmx%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 77647: before request, vpn is not allowed, send headers'
+    'HTTP_X_HOLA_REQUEST_ID' => '77647'
+    'PATH' => '\\usr\\local\\ImageMagick;\\usr\\local\\php5;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\OpenVPN\\bin;C:\\Program Files (x86)\\Common Files\\Tom Sawyer Software\\8.0.0;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\programms\\php-5.5.9-Win32-VC11-x86;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\rospopovs\\AppData\\Roaming\\npm;C:\\Users\\rospopovs\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9 Server at yii_test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9'
+    'SERVER_NAME' => 'yii_test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/home/yii_test/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/home/yii_test/www/web/index.php'
+    'REMOTE_PORT' => '61370'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1536576924.981
+    'REQUEST_TIME' => 1536576924
+    'argv' => []
+    'argc' => 0
+]
+2018-09-10 13:55:25 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\home\yii_test\www\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\home\yii_test\www\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 C:\home\yii_test\www\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\home\yii_test\www\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\home\yii_test\www\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\home\yii_test\www\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\home\yii_test\www\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-09-10 13:55:25 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2b2iithprsvle2fmenb40abnv5'
+    '_csrf' => '70c3e71afe1647362d6f6732652e61d68818cf1a96fc841c0a7e1365819cfd71a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HhATzWWXHPp3hAwenAO24rcGnnbHeOmx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'cinuro'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii_test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=2b2iithprsvle2fmenb40abnv5; _csrf=70c3e71afe1647362d6f6732652e61d68818cf1a96fc841c0a7e1365819cfd71a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HhATzWWXHPp3hAwenAO24rcGnnbHeOmx%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 77648: before request, vpn is not allowed, send headers'
+    'HTTP_X_HOLA_REQUEST_ID' => '77648'
+    'PATH' => '\\usr\\local\\ImageMagick;\\usr\\local\\php5;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\OpenVPN\\bin;C:\\Program Files (x86)\\Common Files\\Tom Sawyer Software\\8.0.0;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\programms\\php-5.5.9-Win32-VC11-x86;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\rospopovs\\AppData\\Roaming\\npm;C:\\Users\\rospopovs\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9 Server at yii_test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9'
+    'SERVER_NAME' => 'yii_test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/home/yii_test/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/home/yii_test/www/web/index.php'
+    'REMOTE_PORT' => '61371'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1536576925.135
+    'REQUEST_TIME' => 1536576925
+    'argv' => []
+    'argc' => 0
+]
+2018-09-10 13:55:25 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\home\yii_test\www\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\home\yii_test\www\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 C:\home\yii_test\www\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\home\yii_test\www\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\home\yii_test\www\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\home\yii_test\www\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\home\yii_test\www\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-09-10 13:55:25 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2b2iithprsvle2fmenb40abnv5'
+    '_csrf' => '70c3e71afe1647362d6f6732652e61d68818cf1a96fc841c0a7e1365819cfd71a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HhATzWWXHPp3hAwenAO24rcGnnbHeOmx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'cinuro'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii_test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii_test/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=2b2iithprsvle2fmenb40abnv5; _csrf=70c3e71afe1647362d6f6732652e61d68818cf1a96fc841c0a7e1365819cfd71a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HhATzWWXHPp3hAwenAO24rcGnnbHeOmx%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 77652: before request, vpn is not allowed, send headers'
+    'HTTP_X_HOLA_REQUEST_ID' => '77652'
+    'PATH' => '\\usr\\local\\ImageMagick;\\usr\\local\\php5;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\OpenVPN\\bin;C:\\Program Files (x86)\\Common Files\\Tom Sawyer Software\\8.0.0;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\programms\\php-5.5.9-Win32-VC11-x86;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\rospopovs\\AppData\\Roaming\\npm;C:\\Users\\rospopovs\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9 Server at yii_test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9'
+    'SERVER_NAME' => 'yii_test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/home/yii_test/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/home/yii_test/www/web/index.php'
+    'REMOTE_PORT' => '61372'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1536576925.506
+    'REQUEST_TIME' => 1536576925
+    'argv' => []
+    'argc' => 0
+]
+2018-09-10 13:55:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\home\yii_test\www\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\home\yii_test\www\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 C:\home\yii_test\www\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\home\yii_test\www\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\home\yii_test\www\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\home\yii_test\www\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\home\yii_test\www\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-09-10 13:55:39 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2b2iithprsvle2fmenb40abnv5'
+    '_csrf' => '70c3e71afe1647362d6f6732652e61d68818cf1a96fc841c0a7e1365819cfd71a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HhATzWWXHPp3hAwenAO24rcGnnbHeOmx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'cinuro'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii_test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=2b2iithprsvle2fmenb40abnv5; _csrf=70c3e71afe1647362d6f6732652e61d68818cf1a96fc841c0a7e1365819cfd71a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HhATzWWXHPp3hAwenAO24rcGnnbHeOmx%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 77746: before request, vpn is not allowed, send headers'
+    'HTTP_X_HOLA_REQUEST_ID' => '77746'
+    'PATH' => '\\usr\\local\\ImageMagick;\\usr\\local\\php5;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\OpenVPN\\bin;C:\\Program Files (x86)\\Common Files\\Tom Sawyer Software\\8.0.0;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\programms\\php-5.5.9-Win32-VC11-x86;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\rospopovs\\AppData\\Roaming\\npm;C:\\Users\\rospopovs\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9 Server at yii_test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9'
+    'SERVER_NAME' => 'yii_test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/home/yii_test/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/home/yii_test/www/web/index.php'
+    'REMOTE_PORT' => '61534'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1536576939.054
+    'REQUEST_TIME' => 1536576939
+    'argv' => []
+    'argc' => 0
+]
+2018-09-10 13:55:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\home\yii_test\www\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\home\yii_test\www\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 C:\home\yii_test\www\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\home\yii_test\www\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\home\yii_test\www\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\home\yii_test\www\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\home\yii_test\www\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-09-10 13:55:39 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2b2iithprsvle2fmenb40abnv5'
+    '_csrf' => '70c3e71afe1647362d6f6732652e61d68818cf1a96fc841c0a7e1365819cfd71a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HhATzWWXHPp3hAwenAO24rcGnnbHeOmx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'cinuro'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii_test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii_test/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=2b2iithprsvle2fmenb40abnv5; _csrf=70c3e71afe1647362d6f6732652e61d68818cf1a96fc841c0a7e1365819cfd71a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HhATzWWXHPp3hAwenAO24rcGnnbHeOmx%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 77749: before request, vpn is not allowed, send headers'
+    'HTTP_X_HOLA_REQUEST_ID' => '77749'
+    'PATH' => '\\usr\\local\\ImageMagick;\\usr\\local\\php5;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\OpenVPN\\bin;C:\\Program Files (x86)\\Common Files\\Tom Sawyer Software\\8.0.0;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\programms\\php-5.5.9-Win32-VC11-x86;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\rospopovs\\AppData\\Roaming\\npm;C:\\Users\\rospopovs\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9 Server at yii_test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9'
+    'SERVER_NAME' => 'yii_test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/home/yii_test/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/home/yii_test/www/web/index.php'
+    'REMOTE_PORT' => '61535'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1536576939.333
+    'REQUEST_TIME' => 1536576939
+    'argv' => []
+    'argc' => 0
+]
