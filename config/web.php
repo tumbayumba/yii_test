@@ -48,12 +48,15 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            //'enableStrictParsing' => false,
             'rules' => [
                 '' => 'site/index',                                
                 '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
             ],
         ],
-        
+        'assetManager' => [
+            'appendTimestamp' => true,
+        ],
     ],
     'params' => $params,
     'modules' => [

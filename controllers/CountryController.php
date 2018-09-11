@@ -8,6 +8,11 @@ use app\models\CountrySearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\filters\AccessControl;
+//use yii\filters\auth\HttpBasicAuth;
+//use yii\filters\HttpCache;
+use yii\filters\PageCache;
+use yii\caching\DbDependency;
 
 /**
  * CountryController implements the CRUD actions for Country model.
@@ -20,12 +25,50 @@ class CountryController extends Controller
     public function behaviors()
     {
         return [
+            /*[
+                'class' => HttpCache::className(),
+                'only' => ['index'],
+                'lastModified' => function ($action, $params) {
+                    $q = new \yii\db\Query();
+                    return $q->from('user')->max('updated_at');
+                },
+            ],*/
+            'pageCache' => [
+                'class' => PageCache::className(),
+                'only' => ['index'],
+                'duration' => 60,
+                'dependency' => [
+                    'class' => DbDependency::className(),
+                    'sql' => 'SELECT COUNT(*) FROM country',
+                ],
+                'variations' => [
+                    \Yii::$app->language,
+                ]
+            ],
+            [
+                'class' => 'app\components\ActionTimeFilter',
+            ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
                     'delete' => ['POST'],
                 ],
             ],
+            'access' => [
+                'class' => AccessControl::className(),
+                'only' => ['create', 'update','delete'],
+                'rules' => [
+                    // разрешаем аутентифицированным пользователям
+                    [
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                    // всё остальное по умолчанию запрещено
+                ],
+            ],
+            /*'basicAuth' => [
+                'class' => HttpBasicAuth::className(),
+            ],*/
         ];
     }
     
@@ -37,7 +80,6 @@ class CountryController extends Controller
     {
         $searchModel = new CountrySearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-        
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
