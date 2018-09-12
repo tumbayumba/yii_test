@@ -504,3 +504,459 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2018-09-12 11:36:38 [127.0.0.1][-][fgqu493amsiq0diasapaur6m31][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\User' not found' in C:\home\yii_test\www\vendor\yiisoft\yii2\web\User.php:690
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-12 11:36:38 [127.0.0.1][-][fgqu493amsiq0diasapaur6m31][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e39dbc494f0b49d9db873af3460852ca513b5bc70cf3090e49962bdd58466e86a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'fgqu493amsiq0diasapaur6m31'
+    '_csrf' => '5854fb25c04486c9e405813286f872a847d96d8cfc184fd5b67974918b910135a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mlBg2PBOjaJPVdcb_9VxGPins3erW2PL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__captcha/site/captcha' => 'boqhlyl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii_test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => '_identity=e39dbc494f0b49d9db873af3460852ca513b5bc70cf3090e49962bdd58466e86a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=fgqu493amsiq0diasapaur6m31; _csrf=5854fb25c04486c9e405813286f872a847d96d8cfc184fd5b67974918b910135a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mlBg2PBOjaJPVdcb_9VxGPins3erW2PL%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 20613: before request, vpn is not allowed, send headers'
+    'HTTP_X_HOLA_REQUEST_ID' => '20613'
+    'PATH' => '\\usr\\local\\ImageMagick;\\usr\\local\\php5;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\OpenVPN\\bin;C:\\Program Files (x86)\\Common Files\\Tom Sawyer Software\\8.0.0;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\programms\\php-5.5.9-Win32-VC11-x86;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\rospopovs\\AppData\\Roaming\\npm;C:\\Users\\rospopovs\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9 Server at yii_test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9'
+    'SERVER_NAME' => 'yii_test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/home/yii_test/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/home/yii_test/www/web/index.php'
+    'REMOTE_PORT' => '59326'
+    'REDIRECT_QUERY_STRING' => 'r=site%2Fcontact'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1536741398.102
+    'REQUEST_TIME' => 1536741398
+    'argv' => [
+        0 => 'r=site%2Fcontact'
+    ]
+    'argc' => 1
+]
+2018-09-12 11:36:39 [127.0.0.1][-][fgqu493amsiq0diasapaur6m31][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\User' not found' in C:\home\yii_test\www\vendor\yiisoft\yii2\web\User.php:690
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-12 11:36:38 [127.0.0.1][-][fgqu493amsiq0diasapaur6m31][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e39dbc494f0b49d9db873af3460852ca513b5bc70cf3090e49962bdd58466e86a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'fgqu493amsiq0diasapaur6m31'
+    '_csrf' => '5854fb25c04486c9e405813286f872a847d96d8cfc184fd5b67974918b910135a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mlBg2PBOjaJPVdcb_9VxGPins3erW2PL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__captcha/site/captcha' => 'boqhlyl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii_test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii_test/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => '_identity=e39dbc494f0b49d9db873af3460852ca513b5bc70cf3090e49962bdd58466e86a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=fgqu493amsiq0diasapaur6m31; _csrf=5854fb25c04486c9e405813286f872a847d96d8cfc184fd5b67974918b910135a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mlBg2PBOjaJPVdcb_9VxGPins3erW2PL%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 20627: before request, vpn is not allowed, send headers'
+    'HTTP_X_HOLA_REQUEST_ID' => '20627'
+    'PATH' => '\\usr\\local\\ImageMagick;\\usr\\local\\php5;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\OpenVPN\\bin;C:\\Program Files (x86)\\Common Files\\Tom Sawyer Software\\8.0.0;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\programms\\php-5.5.9-Win32-VC11-x86;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\rospopovs\\AppData\\Roaming\\npm;C:\\Users\\rospopovs\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9 Server at yii_test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9'
+    'SERVER_NAME' => 'yii_test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/home/yii_test/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/home/yii_test/www/web/index.php'
+    'REMOTE_PORT' => '59327'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1536741398.967
+    'REQUEST_TIME' => 1536741398
+    'argv' => []
+    'argc' => 0
+]
+2018-09-12 11:36:54 [127.0.0.1][-][fgqu493amsiq0diasapaur6m31][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\User' not found' in C:\home\yii_test\www\vendor\yiisoft\yii2\web\User.php:690
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-12 11:36:54 [127.0.0.1][-][fgqu493amsiq0diasapaur6m31][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e39dbc494f0b49d9db873af3460852ca513b5bc70cf3090e49962bdd58466e86a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'fgqu493amsiq0diasapaur6m31'
+    '_csrf' => '5854fb25c04486c9e405813286f872a847d96d8cfc184fd5b67974918b910135a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mlBg2PBOjaJPVdcb_9VxGPins3erW2PL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__captcha/site/captcha' => 'boqhlyl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii_test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => '_identity=e39dbc494f0b49d9db873af3460852ca513b5bc70cf3090e49962bdd58466e86a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=fgqu493amsiq0diasapaur6m31; _csrf=5854fb25c04486c9e405813286f872a847d96d8cfc184fd5b67974918b910135a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mlBg2PBOjaJPVdcb_9VxGPins3erW2PL%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 20716: before request, vpn is not allowed, send headers'
+    'HTTP_X_HOLA_REQUEST_ID' => '20716'
+    'PATH' => '\\usr\\local\\ImageMagick;\\usr\\local\\php5;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\OpenVPN\\bin;C:\\Program Files (x86)\\Common Files\\Tom Sawyer Software\\8.0.0;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\programms\\php-5.5.9-Win32-VC11-x86;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\rospopovs\\AppData\\Roaming\\npm;C:\\Users\\rospopovs\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9 Server at yii_test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9'
+    'SERVER_NAME' => 'yii_test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/home/yii_test/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/home/yii_test/www/web/index.php'
+    'REMOTE_PORT' => '59514'
+    'REDIRECT_URL' => '/i'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/i'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1536741414.301
+    'REQUEST_TIME' => 1536741414
+    'argv' => []
+    'argc' => 0
+]
+2018-09-12 11:36:55 [127.0.0.1][-][fgqu493amsiq0diasapaur6m31][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\User' not found' in C:\home\yii_test\www\vendor\yiisoft\yii2\web\User.php:690
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-12 11:36:55 [127.0.0.1][-][fgqu493amsiq0diasapaur6m31][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e39dbc494f0b49d9db873af3460852ca513b5bc70cf3090e49962bdd58466e86a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'fgqu493amsiq0diasapaur6m31'
+    '_csrf' => '5854fb25c04486c9e405813286f872a847d96d8cfc184fd5b67974918b910135a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mlBg2PBOjaJPVdcb_9VxGPins3erW2PL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__captcha/site/captcha' => 'boqhlyl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii_test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii_test/i'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => '_identity=e39dbc494f0b49d9db873af3460852ca513b5bc70cf3090e49962bdd58466e86a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=fgqu493amsiq0diasapaur6m31; _csrf=5854fb25c04486c9e405813286f872a847d96d8cfc184fd5b67974918b910135a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mlBg2PBOjaJPVdcb_9VxGPins3erW2PL%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 20730: before request, vpn is not allowed, send headers'
+    'HTTP_X_HOLA_REQUEST_ID' => '20730'
+    'PATH' => '\\usr\\local\\ImageMagick;\\usr\\local\\php5;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\OpenVPN\\bin;C:\\Program Files (x86)\\Common Files\\Tom Sawyer Software\\8.0.0;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\programms\\php-5.5.9-Win32-VC11-x86;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\rospopovs\\AppData\\Roaming\\npm;C:\\Users\\rospopovs\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9 Server at yii_test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9'
+    'SERVER_NAME' => 'yii_test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/home/yii_test/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/home/yii_test/www/web/index.php'
+    'REMOTE_PORT' => '59515'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1536741415.089
+    'REQUEST_TIME' => 1536741415
+    'argv' => []
+    'argc' => 0
+]
+2018-09-12 11:36:57 [127.0.0.1][-][fgqu493amsiq0diasapaur6m31][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\User' not found' in C:\home\yii_test\www\vendor\yiisoft\yii2\web\User.php:690
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-12 11:36:57 [127.0.0.1][-][fgqu493amsiq0diasapaur6m31][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e39dbc494f0b49d9db873af3460852ca513b5bc70cf3090e49962bdd58466e86a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'fgqu493amsiq0diasapaur6m31'
+    '_csrf' => '5854fb25c04486c9e405813286f872a847d96d8cfc184fd5b67974918b910135a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mlBg2PBOjaJPVdcb_9VxGPins3erW2PL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__captcha/site/captcha' => 'boqhlyl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii_test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => '_identity=e39dbc494f0b49d9db873af3460852ca513b5bc70cf3090e49962bdd58466e86a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=fgqu493amsiq0diasapaur6m31; _csrf=5854fb25c04486c9e405813286f872a847d96d8cfc184fd5b67974918b910135a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mlBg2PBOjaJPVdcb_9VxGPins3erW2PL%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 20746: before request, vpn is not allowed, send headers'
+    'HTTP_X_HOLA_REQUEST_ID' => '20746'
+    'PATH' => '\\usr\\local\\ImageMagick;\\usr\\local\\php5;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\OpenVPN\\bin;C:\\Program Files (x86)\\Common Files\\Tom Sawyer Software\\8.0.0;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\programms\\php-5.5.9-Win32-VC11-x86;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\rospopovs\\AppData\\Roaming\\npm;C:\\Users\\rospopovs\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9 Server at yii_test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9'
+    'SERVER_NAME' => 'yii_test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/home/yii_test/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/home/yii_test/www/web/index.php'
+    'REMOTE_PORT' => '59562'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1536741417.517
+    'REQUEST_TIME' => 1536741417
+    'argv' => []
+    'argc' => 0
+]
+2018-09-12 11:36:57 [127.0.0.1][-][fgqu493amsiq0diasapaur6m31][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\User' not found' in C:\home\yii_test\www\vendor\yiisoft\yii2\web\User.php:690
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-12 11:36:57 [127.0.0.1][-][fgqu493amsiq0diasapaur6m31][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e39dbc494f0b49d9db873af3460852ca513b5bc70cf3090e49962bdd58466e86a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'fgqu493amsiq0diasapaur6m31'
+    '_csrf' => '5854fb25c04486c9e405813286f872a847d96d8cfc184fd5b67974918b910135a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mlBg2PBOjaJPVdcb_9VxGPins3erW2PL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__captcha/site/captcha' => 'boqhlyl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii_test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => '_identity=e39dbc494f0b49d9db873af3460852ca513b5bc70cf3090e49962bdd58466e86a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=fgqu493amsiq0diasapaur6m31; _csrf=5854fb25c04486c9e405813286f872a847d96d8cfc184fd5b67974918b910135a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mlBg2PBOjaJPVdcb_9VxGPins3erW2PL%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 20747: before request, vpn is not allowed, send headers'
+    'HTTP_X_HOLA_REQUEST_ID' => '20747'
+    'PATH' => '\\usr\\local\\ImageMagick;\\usr\\local\\php5;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\OpenVPN\\bin;C:\\Program Files (x86)\\Common Files\\Tom Sawyer Software\\8.0.0;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\programms\\php-5.5.9-Win32-VC11-x86;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\rospopovs\\AppData\\Roaming\\npm;C:\\Users\\rospopovs\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9 Server at yii_test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9'
+    'SERVER_NAME' => 'yii_test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/home/yii_test/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/home/yii_test/www/web/index.php'
+    'REMOTE_PORT' => '59563'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1536741417.734
+    'REQUEST_TIME' => 1536741417
+    'argv' => []
+    'argc' => 0
+]
+2018-09-12 11:36:58 [127.0.0.1][-][fgqu493amsiq0diasapaur6m31][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\User' not found' in C:\home\yii_test\www\vendor\yiisoft\yii2\web\User.php:690
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-12 11:36:58 [127.0.0.1][-][fgqu493amsiq0diasapaur6m31][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e39dbc494f0b49d9db873af3460852ca513b5bc70cf3090e49962bdd58466e86a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'fgqu493amsiq0diasapaur6m31'
+    '_csrf' => '5854fb25c04486c9e405813286f872a847d96d8cfc184fd5b67974918b910135a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mlBg2PBOjaJPVdcb_9VxGPins3erW2PL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__captcha/site/captcha' => 'boqhlyl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii_test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii_test/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => '_identity=e39dbc494f0b49d9db873af3460852ca513b5bc70cf3090e49962bdd58466e86a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=fgqu493amsiq0diasapaur6m31; _csrf=5854fb25c04486c9e405813286f872a847d96d8cfc184fd5b67974918b910135a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mlBg2PBOjaJPVdcb_9VxGPins3erW2PL%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 20750: before request, vpn is not allowed, send headers'
+    'HTTP_X_HOLA_REQUEST_ID' => '20750'
+    'PATH' => '\\usr\\local\\ImageMagick;\\usr\\local\\php5;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\OpenVPN\\bin;C:\\Program Files (x86)\\Common Files\\Tom Sawyer Software\\8.0.0;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\programms\\php-5.5.9-Win32-VC11-x86;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\rospopovs\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\rospopovs\\AppData\\Roaming\\npm;C:\\Users\\rospopovs\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9 Server at yii_test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.5.9'
+    'SERVER_NAME' => 'yii_test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/home/yii_test/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/home/yii_test/www/web/index.php'
+    'REMOTE_PORT' => '59564'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1536741418.235
+    'REQUEST_TIME' => 1536741418
+    'argv' => []
+    'argc' => 0
+]

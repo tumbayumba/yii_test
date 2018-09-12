@@ -146,4 +146,8 @@ class SiteController extends Controller
             return $this->render('entry', ['model' => $model]);
         }
     }
+    
+    /*public function actionError(){
+        return $this->render('error',['message'=>'Some error!']);
+    }*/
 }

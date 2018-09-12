@@ -3,6 +3,7 @@
 namespace app\models;
 
 use Yii;
+use app\components\MyBehavior;
 
 /**
  * This is the model class for table "country".
@@ -44,6 +45,21 @@ class Country extends \yii\db\ActiveRecord
             'code' => 'Code',
             'name' => 'Name',
             'population' => 'Population',
+        ];
+    }
+    
+    public function behaviors(){
+        return [
+            'myBehavior1' => [
+                'class' => MyBehavior::className(),
+                'prop1' => 'value1',
+                'prop2' => 'value2',
+            ],
+            'myBehavior2' => [
+                'class' => MyBehavior::className(),
+                'prop1' => 'value11',
+                'prop2' => 'value22',
+            ]
         ];
     }
 }

@@ -45,15 +45,15 @@ $config = [
         ],
         'db' => $db,
         
-        'urlManager' => [
+        /*'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             //'enableStrictParsing' => false,
             'rules' => [
-                '' => 'site/index',                                
+                '' => 'site/index', 
                 '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
             ],
-        ],
+        ],*/
         'assetManager' => [
             'appendTimestamp' => true,
         ],

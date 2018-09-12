@@ -5,6 +5,7 @@ namespace app\controllers;
 use Yii;
 use app\models\Country;
 use app\models\CountrySearch;
+use app\components\Foo;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -13,12 +14,26 @@ use yii\filters\AccessControl;
 //use yii\filters\HttpCache;
 use yii\filters\PageCache;
 use yii\caching\DbDependency;
+use yii\base\Event;
 
 /**
  * CountryController implements the CRUD actions for Country model.
  */
 class CountryController extends Controller
 {
+    public function beforeAction($action) {
+        $config = [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=127.0.0.1;dbname=demo',
+            'username' => 'root',
+            'password' => '',
+            'charset' => 'utf8',
+        ];
+        $db2 = Yii::createObject($config);
+        parent::beforeAction($action);
+    }
+
+
     /**
      * {@inheritdoc}
      */
@@ -78,12 +93,35 @@ class CountryController extends Controller
      */
     public function actionIndex()
     {
+        Yii::debug('action country index');
+        
+        //echo (new Country)->prop1;exit; //--> value1
+        //echo (new Country)->getBehavior('myBehavior2')->prop1;exit; //--> value11
+       
+        $foo = new Foo;
+        $foo->on(Foo::EVENT_HELLO,function(){ echo 'event';exit; });
+        $foo->off(Foo::EVENT_HELLO);
+        //...
+        $foo->bar();
+        
         $searchModel = new CountrySearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
+    }
+    
+    public function actionInfo() {
+        \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+        return [
+            'message' => 'hello world',
+            'code' => 100,
+        ];
+    }
+    
+    public function actionDownload() {
+        return \Yii::$app->response->sendFile(Yii::$app->basePath.'/web/img/spoon.jpg')->send();
     }
 
     /**
