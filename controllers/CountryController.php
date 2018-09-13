@@ -21,7 +21,7 @@ use yii\base\Event;
  */
 class CountryController extends Controller
 {
-    public function beforeAction($action) {
+    /*public function beforeAction($action) {
         $config = [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=127.0.0.1;dbname=demo',
@@ -31,7 +31,7 @@ class CountryController extends Controller
         ];
         $db2 = Yii::createObject($config);
         parent::beforeAction($action);
-    }
+    }*/
 
 
     /**
@@ -93,16 +93,16 @@ class CountryController extends Controller
      */
     public function actionIndex()
     {
-        Yii::debug('action country index');
+        //Yii::debug('action country index');
         
         //echo (new Country)->prop1;exit; //--> value1
         //echo (new Country)->getBehavior('myBehavior2')->prop1;exit; //--> value11
        
-        $foo = new Foo;
-        $foo->on(Foo::EVENT_HELLO,function(){ echo 'event';exit; });
-        $foo->off(Foo::EVENT_HELLO);
+        //$foo = new Foo;
+        //$foo->on(Foo::EVENT_HELLO,function(){ echo 'event';exit; });
+        //$foo->off(Foo::EVENT_HELLO);
         //...
-        $foo->bar();
+        //$foo->bar();
         
         $searchModel = new CountrySearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
